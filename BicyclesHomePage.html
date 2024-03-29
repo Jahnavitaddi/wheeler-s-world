@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicycles</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vehistyle.css">
+      <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+     <header>
+        <div id="logo">
+            <img src="wheelers world.jpeg" alt="brandLogo" id="landingPage">
+        </div>
+        <ul id="nav_bar">
+            <li id="megamenu_container"><a href="wheelersworld.html">Home</a></li>
+            <li><a href="BicyclesHomePage.html">Bicycles</a></li>
+            <li><a href="BikesHomePage.html">Bikes</a></li>
+            <li><a href="CarsHomePage.html">Cars</a></li>
+            <li><a href="OthersHomePage.html">Others</a></li>
+            <li id="studio"><a href="OurBlog.html">Our Blog</a></li>
+        </ul> 
+      
+        <div id="right_icon">
+            <div>
+              
+          </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>bag</span>
+            </div>
+        </div>
+                   <!-- TOGGLE MENU -->
+                   <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="wheelersworld.html">Home</a>
+                            <a href="BicyclesHomePage.html">Bicycles</a>
+                            <a href="BikesHomePage.html">Bikes</a>
+                            <a href="CarsHomePage.html">Cars</a>
+                            <a href="OthersHomePage">Others</a>
+                            <a href="OurBlog.html">Our Blog</a>
+                        </div>
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>               
+                    </div>
+                </div>
+    </header>
+     <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="bilogo1.jpeg" alt="">
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="bilogo2.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bilogo3.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bilogo4.jpeg" alt="">
+            </div>
+        </div>
+
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+       
+
+    <div id="sorting">
+
+    
+
+        <select class="filter" id="priceSort">
+            <option value="---">SORT BY PRICE</option>
+            <option value="lth">Low → High</option>
+            <option value="htl">High → Low</option>
+          </select>
+
+        <select class="filter" id="nameSort">
+            <option value="---">SORT BY NAME</option>
+            <option value="asc">Ascending</option>
+            <option value="dsc">Descending</option>
+          </select>
+
+    </div>
+
+        <div id="container"></div>
+    </div>
+<script src="Bicycles.js"></script>
+<script src="corousel.js"></script>
+<script src="headerMenu.js"></script>
+<script src="hyperlinks.js"></script>
+</body>
+</html>
+
